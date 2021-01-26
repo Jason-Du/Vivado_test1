@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/khduh/vivado_file/project_test1/project_test1.srcs/sources_1/imports/project_test1/led_ctl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'led_ctl'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/khduh/vivado_file/project_test1/project_test1.srcs/sources_1/imports/project_test1/meta_harden.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'meta_harden'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/khduh/vivado_file/project_test1/project_test1.srcs/sources_1/imports/project_test1/clocked_led.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clocked_led'

@@ -1,0 +1,24 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /home/bytan/Vivado/Vivado/2020.2/bin/unwrapped/lnx64.o/xelab -wto b712558a09f941108162c7781b1c4cad --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot clocked_led_behav xil_defaultlib.clocked_led -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-4940] 'clk_core' remains a black box since it has no binding entity [/home/khduh/vivado_file/project_test1/project_test1.srcs/sources_1/imports/project_test1/clocked_led.vhd:82]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture obuf_v of entity unisim.OBUF [\OBUF(1,9)(1,7)(1,4)\]
+Compiling architecture ibuf_v of entity unisim.IBUF [\IBUF(1,9)(1,1)(1,4)(1,7)\]
+Compiling architecture behavioral of entity xil_defaultlib.meta_harden [meta_harden_default]
+Compiling architecture behavioral of entity xil_defaultlib.led_ctl [led_ctl_default]
+Compiling architecture behavioral of entity xil_defaultlib.clocked_led
+Built simulation snapshot clocked_led_behav
